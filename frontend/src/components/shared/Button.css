@@ -1,0 +1,10 @@
+.activeBtn {
+    background-color: teal !important;
+    color: white;
+}
+
+.inactiveBtn {
+    background-color: aqua !important;
+    color: black !important;
+}
+

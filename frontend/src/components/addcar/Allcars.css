@@ -1,0 +1,58 @@
+/* Container for the grid */
+.cars-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  /* Grid container to display the cars */
+  .cars-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust grid columns based on screen size */
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .car-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect for each card */
+  .car-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling for car image */
+  .car-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  /* Styling for car details section */
+  .car-details h2 {
+    font-size: 1.4em;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .car-details p {
+    font-size: 1em;
+    color: #666;
+    margin: 4px 0;
+  }
+  
