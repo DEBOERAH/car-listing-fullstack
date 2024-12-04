@@ -5,10 +5,12 @@ const AllCars = () => {
   const [cars, setCars] = useState([]);
 
   useEffect(() => {
+    
+    const apiUrl = import.meta.env.VITE_API_URL
     const fetchCars = async () => {
       try {
         // Fetch cars from the backend API
-        const response = await fetch('http://localhost:8172/api/cars');
+        const response = await fetch(`${apiUrl}/api/cars`);
         const fetchedData = await response.json();
   
         // Retrieve all cars from local storage
