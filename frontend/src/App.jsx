@@ -1,63 +1,10 @@
-// import BButton from './components/shared/BButton'
-
-
-// const App = () => {
-//   //handle next
-//   const handleNext = () => {
-
-//     alert('next clicked')
-
-//   }
-//   //handle sell
-//   const handleSell = () => {
-
-//     alert('sell clicked')
-//   }
-//   //handle buy
-//   const handleBuy = () => {
-
-//     alert('buy clicked')
-//   }
-//   //handle signup
-//   const handleSignup = () => {
-
-//     alert('signup clicked')
-//   }
-//   return (
-//     <div>
-//       <h1>Car listing Bay</h1>
-
-//       <div>
-//         <BButton  btnFunc={handleSell} bradius={'10px'} bgColor="orange"><i className="fa-solid fa-arrow-right"></i>SELL</BButton>
-//         <BButton   btnFunc={handleNext} bradius='0px'>NEXT <i className="fa-solid fa-arrow-left"></i></BButton>
-//         <BButton btnFunc={handleBuy} bgColor='red'>READ</BButton>  
-//         <BButton bgColor='green'>Buy</BButton>
-//         <BButton/>
-//         <BButton  btnFunc={handleSignup} bgColor='pink'>Login</BButton>
-//         <BButton/>
-//       </div>
-//       <div>
-//         <BButton btnName="activeBtn">submit form</BButton>
-//         <BButton btnName="inactiveBtn">submit form</BButton>
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default App
 
 import React from 'react'
-import Counter from './components/counter/counter'
-import BButton from './components/shared/BButton'
 import { useState } from 'react'
-import Imagegallery from './components/Imagegallery'
-import Teamlist from './components/team/Teamlist'
-import AddTeamForm from './components/addcar/AddTeamForm'
 import Navigationbar from './components/Header/Navigationbar'
 import Footer from './components/Footer/Footer'
 import { Routes, Route } from 'react-router-dom'
 import Home from './components/Home/Home'
-import Listing from './components/listing/Listing'
 import About from './components/About/About'
 import Contact from './components/contact/Contact'
 import Addcar from './components/addcar/Addcar'
